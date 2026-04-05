@@ -1,0 +1,51 @@
+# ── Secrets ──────────────────────────────────────────────────────────────────
+.env
+*.env
+!.env.example
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Logs & data ───────────────────────────────────────────────────────────────
+*.log
+logs/
+data/
+
+# ── Legacy artefacts (FAISS / pickle era) ────────────────────────────────────
+*.index
+*.pkl
+embed_signature.txt
+
+# ── Database ──────────────────────────────────────────────────────────────────
+alembic/versions/__pycache__/
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
