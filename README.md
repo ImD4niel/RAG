@@ -1,6 +1,6 @@
-# DRAGON RAG
+#RAG
 
-DRAGON RAG is a production-grade Agentic Retrieval-Augmented Generation system. This project is built using Python, and uses PostgreSQL with `pgvector` for scalable, persistent vector storage.
+This RAG is a production-grade Agentic Retrieval-Augmented Generation system. This project is built using Python, and uses PostgreSQL with `pgvector` for scalable, persistent vector storage.
 
 ## Prerequisites
 - **Python 3.10+**
