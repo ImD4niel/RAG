@@ -1,6 +1,6 @@
 # DRAGON RAG
 
-DRAGON RAG is a production-grade Agentic Retrieval-Augmented Generation system. This project is built using Python, and uses PostgreSQL with `pgvector` for scalable, persistent vector storage.
+This RAG is a production-grade Agentic Retrieval-Augmented Generation system. This project is built using Python, and uses PostgreSQL with `pgvector` for scalable, persistent vector storage.
 
 ## Prerequisites
 - **Python 3.10+**
@@ -26,7 +26,7 @@ cp .env.example .env
 Fill out the required configuration variables in the `.env` file, especially your database credentials and API keys (e.g., OpenAI, Gemini, or Github).
 
 ### 3. Install Dependencies
-It is highly recommended to use a virtual environment. From the project root (`LEARNING_RAG`), run:
+It is highly recommended to use a virtual environment. From the project root folder, run:
 
 ```bash
 python -m venv .venv
