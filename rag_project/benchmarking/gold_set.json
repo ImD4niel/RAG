@@ -1,0 +1,27 @@
+[
+    {
+        "query": "Where did Daniel work as a Product Intern during July 2025, and what specific LLMs were integrated into the architecture?",
+        "ground_truth": "Daniel worked as a Product Intern at Revstar Solutions in Bangalore, India. He integrated local LLMs (Ollama: Mistral, Llama) and cloud APIs (ChatGPT).",
+        "category": "Extractive"
+    },
+    {
+        "query": "Who submitted the Sleep Apnea Phase II Report, and what is its Submission ID?",
+        "ground_truth": "The Sleep Apnea Phase II Report was submitted by shwetha.library@sahyadri.edu.in, and the Paper/Submission ID is 4790383.",
+        "category": "Extractive"
+    },
+    {
+        "query": "What was the exact F1-Score of the CNN-LSTM Hybrid model?",
+        "ground_truth": "The exact F1-Score of the CNN-LSTM Hybrid model is 70.32.",
+        "category": "Analytical"
+    },
+    {
+        "query": "Summarize the tech stack used by Daniel to develop the full-stack AI assistant.",
+        "ground_truth": "Daniel developed a full-stack AI assistant using a React frontend and FastAPI backend, leveraging LangChain, Ollama, and OpenAI API. He also used Chroma and DuckDuckGo for the RAG pipeline.",
+        "category": "Synthesis"
+    },
+    {
+        "query": "What are the rules of playing professional basketball?",
+        "ground_truth": "This information is not available in the provided documents.",
+        "category": "Safety"
+    }
+]
